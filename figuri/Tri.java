@@ -7,7 +7,7 @@ public class Tri implements Figuri {
 	double a, b, c, h;
 	String str;
 	
-	public Tri(double a, double b, double c, double h, String str) {
+	public Tri() {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Vuvedete stranite A, B i C na triugulnika:");
 		this.a=sc.nextDouble();
