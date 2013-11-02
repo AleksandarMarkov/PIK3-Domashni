@@ -6,7 +6,7 @@ public class Pet implements Figuri{
 	
 	double a;
 	
-	public Pet (double a){
+	public Pet (){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Vuvedete stranata na pravilniq petougulnik:");
 		this.a=sc.nextDouble(); }
