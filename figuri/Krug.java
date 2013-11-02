@@ -6,7 +6,7 @@ public class Krug implements Figuri {
 	
 	double radius;
 	
-	public Krug (double radius){
+	public Krug (){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Vuvedete radius na okrujnostta:");
 		this.radius=sc.nextDouble(); }
